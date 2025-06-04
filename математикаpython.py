@@ -10,7 +10,7 @@ def NewObject():
     table = PrettyTable(th)
     print("Введите ансамбль большого числа L идентичных электротехнических систем")
     L = list(map(float,input().split()))
-    pAB = L/ np.sum(L)
+    pAB = L / np.sum(L)
     print(pAB)
     hAB = -np.sum(pAB* np.log10(pAB))
     mAB = statistics.mean(L)

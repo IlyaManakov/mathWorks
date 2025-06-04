@@ -40,7 +40,6 @@ for i in range(w):
 
 for i in range(w):
     table.add_row([i,L[i],pAB[i],hAB[i]])
-#MAab = np.log10(Q) +
 print('Q=',Q)
 print(table)
 print('M(a,b)=',M)
